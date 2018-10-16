@@ -27,7 +27,7 @@ def serialize(root):
 import re
 def deserialize(s):
 
-    s = re.split("\(\)+", s)
+    s = re.split("(\(\))+", s)
     print (s)
 
 def dcp3test():
